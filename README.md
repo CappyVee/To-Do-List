@@ -23,6 +23,8 @@ _create click function to display description on the right for abbreviated info 
 
 _remove extraneous info from todo list, and add full description to right side once todo list item is clicked_
 
+_add functionality to remove todo list item
+
 _TO DO:
 
 ## Setup/Installation Requirements
