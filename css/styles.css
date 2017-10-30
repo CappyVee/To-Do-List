@@ -1,3 +1,7 @@
 .show-info {
   display: none;
 }
+
+ul {
+  list-style: none;
+}
