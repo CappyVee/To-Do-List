@@ -6,7 +6,7 @@ function ListItem(name, time, description) {
 }
 
 ListItem.prototype.toDoList = function() {
-  return "<h3>Do this:" + this.itemName + "</h3>" + "<h4> at " + this.itemTime + "</h4>";
+  return "<h5>Do this: " + this.itemName + "</h5>" + "<h6> at " + this.itemTime + " O'clock</h6>";
 }
 
 

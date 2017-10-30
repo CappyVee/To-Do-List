@@ -1,9 +1,10 @@
 .show-info {
+  margin-top: 3%;
   display: none;
 }
 
 ul {
-  list-style: none;
+  list-style: circle;
 }
 
 .listInfo {
@@ -13,4 +14,8 @@ ul {
 
 .contact:hover {
   text-decoration: underline;
+}
+
+button {
+  margin-bottom: 10px;
 }
