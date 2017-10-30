@@ -19,3 +19,6 @@ ul {
 button {
   margin-bottom: 10px;
 }
+.remove {
+  color: red;
+}

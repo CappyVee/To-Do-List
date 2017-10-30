@@ -6,7 +6,7 @@ function ListItem(name, time, description) {
 }
 
 ListItem.prototype.toDoList = function() {
-  return "<h5>Do this: " + this.itemName + "</h5>" + "<h6> at " + this.itemTime + " O'clock</h6>";
+  return "<h5>Do this: " + this.itemName + "</h5>" + "<h6> at " + this.itemTime + " O'clock</h6>" + "<p class='remove'>Complete</p>";
 }
 
 
@@ -31,8 +31,13 @@ $(document).ready(function(){
       $(".displayDescription").text(toDoListItem.itemDesc);
     });//end click fxn
     $("input#listItemName").val("Enter a new task (you jerk)");
-    $("input#listItemDescription").val("Enter a new description");
-    $("input#listItemDescription").val("Enter a time");
+    $("input#listItemDescription").val("Enter a description");
+    $("input#listItemTime").val("00:00:00");
+
+    $(".remove").click(function(){
+      $(this).closest("li").remove();
+      $(".show-info").toggle();
+    })//remove fxn
 
   })//event fxn
 });//doc rdy fxn

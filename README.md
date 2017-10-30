@@ -21,8 +21,9 @@ _append to-do with list info stored in constructor_
 
 _create click function to display description on the right for abbreviated info below form_
 
-_remove extraneous info from todo list, and add full description to right side once todo list item is clicked_ 
+_remove extraneous info from todo list, and add full description to right side once todo list item is clicked_
 
+_TO DO:
 
 ## Setup/Installation Requirements
 
@@ -40,6 +41,7 @@ __
 
 _chrisquattrocchi@gmail.com, phone number is 503-841-0072_
 _github profile is https://github.com/CappyVee
+_github for this project is https://github.com/CappyVee/To-Do-List
 
 ## Technologies Used
 
