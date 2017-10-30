@@ -21,6 +21,8 @@ _append to-do with list info stored in constructor_
 
 _create click function to display description on the right for abbreviated info below form_
 
+_remove extraneous info from todo list, and add full description to right side once todo list item is clicked_ 
+
 
 ## Setup/Installation Requirements
 
