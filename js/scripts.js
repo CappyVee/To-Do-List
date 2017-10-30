@@ -6,7 +6,7 @@ function ListItem(name, time, description) {
 }
 
 ListItem.prototype.toDoList = function() {
-  return "<h5>Do this: " + this.itemName + "</h5>" + "<h6> at " + this.itemTime + " O'clock</h6>" + "<p class='remove'>Complete</p>";
+  return "<h5>Do this: " + this.itemName + "</h5>" + "<h6> at " + this.itemTime + " O'clock</h6>" + "<p class='remove'>Complete?</p>";
 }
 
 
@@ -36,7 +36,7 @@ $(document).ready(function(){
 
     $(".remove").click(function(){
       $(this).closest("li").remove();
-      $(".show-info").toggle();
+      $(".show-info").hide();
     })//remove fxn
 
   })//event fxn
