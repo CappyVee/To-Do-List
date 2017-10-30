@@ -17,7 +17,10 @@ _display form inputs_
 
 _build constructor to store to-do list info_
 
-_append to-do list info stored in constructor_
+_append to-do with list info stored in constructor_
+
+_create click function to display description on the right for abbreviated info below form_
+
 
 ## Setup/Installation Requirements
 
